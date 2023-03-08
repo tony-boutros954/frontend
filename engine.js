@@ -1,5 +1,5 @@
 function GetList(){
-    fetch('http://localhost:3000/data')
+    fetch('https://ill-pink-duck-tutu.cyclic.app/data')
       .then(response => response.json())
       .then(json => {
         var mylist = document.getElementById('mylist');
